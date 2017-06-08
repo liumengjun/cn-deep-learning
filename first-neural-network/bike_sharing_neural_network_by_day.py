@@ -227,12 +227,12 @@ unittest.TextTestRunner().run(suite)
 import sys
 
 ### Set the hyperparameters here ###
-iterations = 500
-learning_rate = 0.092
-hidden_nodes = 3
+iterations = 4000
+learning_rate = 0.68
+hidden_nodes = 7
 output_nodes = 1
 
-N_i = train_features.shape[1]  # (15435, 56)
+N_i = train_features.shape[1]  # (650, 32)
 network = NeuralNetwork(N_i, hidden_nodes, output_nodes, learning_rate)
 
 losses = {'train':[], 'validation':[]}
