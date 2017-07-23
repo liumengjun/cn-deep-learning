@@ -1,0 +1,9 @@
+cifar-10-python.tar.gz
+cifar-10-batches-py
+
+preprocess_*.p
+
+checkpoint
+image_classification.data-*
+image_classification.index
+image_classification.meta
