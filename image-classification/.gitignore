@@ -7,3 +7,5 @@ checkpoint
 image_classification.data-*
 image_classification.index
 image_classification.meta
+
+.floydexpt
